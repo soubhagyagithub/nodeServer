@@ -9,7 +9,7 @@ const contactRouter = require('./routes/contact')
 //imported sequelize
 const sequelize = require('./util/database');
 
-const app = express();
+const app = express();    
 
 
 app.use(bodyParser.urlencoded({extended: true}));
