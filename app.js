@@ -6,7 +6,7 @@ const path = require('path');
 const adminRouter = require('./routes/admin');
 const shopRouter = require('./routes/shop');
 const contactRouter = require('./routes/contact')
-
+//imported sequelize
 const sequelize = require('./util/database');
 
 const app = express();
